@@ -1,0 +1,10 @@
+[gd_scene format=3 uid="uid://dsbmeqwq3kmbh"]
+
+[ext_resource type="Texture2D" uid="uid://df32ykdjxdmvo" path="res://pngwing.com (1).png" id="1_1gwaq"]
+[ext_resource type="Script" uid="uid://bwxpklomxudhj" path="res://tierra.gd" id="2_m4c7l"]
+
+[node name="Sprite2D" type="Sprite2D" unique_id=2007667130]
+position = Vector2(358.99997, 230.99998)
+scale = Vector2(0.05, 0.05)
+texture = ExtResource("1_1gwaq")
+script = ExtResource("2_m4c7l")

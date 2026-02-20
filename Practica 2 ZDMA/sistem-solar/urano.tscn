@@ -1,0 +1,9 @@
+[gd_scene format=3 uid="uid://di5yhbgx8ovpt"]
+
+[ext_resource type="Texture2D" uid="uid://buc3wddxqicoi" path="res://pngwing.com (5).png" id="1_677a4"]
+[ext_resource type="Script" uid="uid://d12mojs87418e" path="res://urano.gd" id="2_3unhk"]
+
+[node name="Sprite2D" type="Sprite2D" unique_id=283933773]
+scale = Vector2(0.1, 0.1)
+texture = ExtResource("1_677a4")
+script = ExtResource("2_3unhk")

@@ -1,0 +1,43 @@
+[gd_scene format=3 uid="uid://dtf01clbgpji2"]
+
+[ext_resource type="Texture2D" uid="uid://d2tuvtohnq8go" path="res://pngwing.com (7).png" id="1_0xm2m"]
+[ext_resource type="PackedScene" uid="uid://dsbmeqwq3kmbh" path="res://tierra.tscn" id="2_h2yge"]
+[ext_resource type="PackedScene" uid="uid://c13sse0pvmrfx" path="res://marte.tscn" id="3_h2yge"]
+[ext_resource type="PackedScene" uid="uid://si31ewrm1p0h" path="res://venus.tscn" id="4_1bvp3"]
+[ext_resource type="PackedScene" uid="uid://1yk0qo63rtae" path="res://mercurio.tscn" id="5_lquwl"]
+[ext_resource type="PackedScene" uid="uid://b27caa8vql4g1" path="res://jupiter.tscn" id="6_7mycd"]
+[ext_resource type="PackedScene" uid="uid://cy6aa3b0xt47d" path="res://saturno.tscn" id="7_272bh"]
+[ext_resource type="PackedScene" uid="uid://di5yhbgx8ovpt" path="res://urano.tscn" id="8_5vw27"]
+[ext_resource type="PackedScene" uid="uid://b4gwvs241vbsy" path="res://neptuno.tscn" id="9_kek77"]
+
+[node name="Main" type="Node" unique_id=1936215668]
+
+[node name="Sol" type="Sprite2D" parent="." unique_id=1396183925]
+position = Vector2(652, 324.4)
+scale = Vector2(0.1, 0.1)
+texture = ExtResource("1_0xm2m")
+
+[node name="Sprite2D" parent="." unique_id=2007667130 instance=ExtResource("2_h2yge")]
+position = Vector2(514, 330.4)
+
+[node name="Sprite2D2" parent="." unique_id=860644414 instance=ExtResource("3_h2yge")]
+position = Vector2(448, 334.4)
+
+[node name="Sprite2D4" parent="." unique_id=1079435483 instance=ExtResource("5_lquwl")]
+position = Vector2(595, 322)
+scale = Vector2(0.025, 0.025)
+
+[node name="Sprite2D3" parent="." unique_id=1440415509 instance=ExtResource("4_1bvp3")]
+position = Vector2(570, 329.4)
+
+[node name="Sprite2D5" parent="." unique_id=2016060066 instance=ExtResource("6_7mycd")]
+position = Vector2(369, 331.39996)
+
+[node name="Sprite2D6" parent="." unique_id=1538924831 instance=ExtResource("7_272bh")]
+position = Vector2(226, 317.4)
+
+[node name="Sprite2D7" parent="." unique_id=283933773 instance=ExtResource("8_5vw27")]
+position = Vector2(99, 319)
+
+[node name="Sprite2D8" parent="." unique_id=959714697 instance=ExtResource("9_kek77")]
+position = Vector2(-2, 329)
